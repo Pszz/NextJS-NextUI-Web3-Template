@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:react/recommended",
+    "next/core-web-vitals",
+    "next",
+    "prettier"
+  ],
+  "plugins": ["react-hooks", "@typescript-eslint"],
+  "rules": {
+    "react-hooks/rules-of-hooks": 1,
+    "react-hooks/exhaustive-deps": 1,
+    "no-unused-vars": 0,
+    "@typescript-eslint/no-unused-vars": 1
+  }
+}

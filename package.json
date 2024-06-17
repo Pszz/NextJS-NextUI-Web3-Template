@@ -1,0 +1,61 @@
+{
+  "name": "nextjs-nextui-web3-template",
+  "author": "pszz",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier -c --write \"**/*.{js,tsx}\""
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.4.1",
+    "@nextui-org/theme": "2.2.4",
+    "@rainbow-me/rainbowkit": "^2.1.2",
+    "@tanstack/react-query": "^5.40.0",
+    "axios": "^1.7.2",
+    "bignumber.js": "^9.1.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.1.1",
+    "jotai": "^2.8.3",
+    "next": "14.2.3",
+    "next-themes": "^0.2.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "3.4.3",
+    "viem": "2.x",
+    "wagmi": "^2.9.8"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^14.2.3",
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "20.5.7",
+    "@types/react": "18.3.2",
+    "@types/react-dom": "18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "^7.10.0",
+    "autoprefixer": "10.4.19",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.2.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-unused-imports": "^4.0.0",
+    "postcss": "8.4.38",
+    "prettier": "^3.3.0",
+    "prettier-plugin-tailwindcss": "^0.6.1",
+    "typescript": "5.0.4",
+    "url-loader": "^4.1.1"
+  },
+  "lint-staged": {
+    "./src/**/*.{ts,js,jsx,tsx}": [
+      "eslint --ignore-path .gitignore --fix",
+      "prettier --ignore-path .gitignore --write"
+    ]
+  }
+}

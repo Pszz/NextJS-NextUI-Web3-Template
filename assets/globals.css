@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(./fonts/index.css);
+
+@layer base {
+  html {
+    height: 100%;
+    font-family: 'Cera Pro', system-ui, sans-serif;
+  }
+
+  body {
+    height: 100%;
+  }
+}

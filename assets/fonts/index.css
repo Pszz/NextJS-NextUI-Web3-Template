@@ -1,0 +1,83 @@
+/* @font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+/* 
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+} */
+
+/* 
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+} */
