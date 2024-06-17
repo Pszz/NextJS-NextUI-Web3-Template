@@ -6,6 +6,7 @@ import { waitForTransactionReceipt } from '@wagmi/core'
 import { delay } from '@/utils'
 import { SYMBOL, Tokens } from '@/constant/tokens'
 import { useContracts } from './useContracts'
+import { USDT_ABI } from '@/constant/abis/usdt'
 
 export const useAllowance = (token: Address, owner: Address) => {
   const { address } = useAccount()
@@ -44,7 +45,7 @@ export const useApprove = (token: Address, owner: Address, amount: string) => {
         setLoading(true)
         const hash = await writeContractAsync({
           address: token,
-          abi: erc20Abi,
+          abi: isUSDT ? USDT_ABI : erc20Abi,
           functionName: 'approve',
           args: [owner, _amount],
         })
