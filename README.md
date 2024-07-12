@@ -1,5 +1,4 @@
-# Next.js & NextUI & Web3 Template
-
+# Web3 Template
 This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
 
 
