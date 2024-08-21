@@ -1,5 +1,4 @@
-# Next.js & NextUI & Web3 Template
-
+# Web3 Template
 This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
 
 
@@ -7,27 +6,23 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [Next.js 14](https://nextjs.org/docs/getting-started)
 - [NextUI v2](https://nextui.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+- [Viem v2](https://viem.sh/)
+- [Wagmi v2](https://wagmi.sh/)
+- [@rainbow-me/rainbowkit](https://www.rainbowkit.com/)
+
 
 ## How to Use
 
 ### Install dependencies
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `yarn`:
 
 ```bash
-npm install
+yarn install
 ```
 
 ### Run the development server
 
 ```bash
-npm run dev
+yarn run dev
 ```
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).

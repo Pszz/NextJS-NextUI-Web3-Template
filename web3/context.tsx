@@ -12,8 +12,8 @@ export type Web3ContextProps = {
 }
 
 const config = getDefaultConfig({
-  appName: 'MBA',
-  projectId: '2f401cd160fef7b5273568bb85ccddc9',
+  appName: '',
+  projectId: '',
   chains,
   ssr: true,
 })
