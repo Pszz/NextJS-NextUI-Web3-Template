@@ -2,7 +2,7 @@ name: 🪀 Feature request
 description: File a feature request.
 title: "[FEATURE] <title>"
 labels: ["feature"]
-projects: ["1"]
+projects: ["2"]
 body:
 - type: textarea
   attributes:
